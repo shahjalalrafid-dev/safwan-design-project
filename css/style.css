@@ -1,0 +1,150 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+body {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1170px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/* All Common CSS End  */
+
+/* Navbar Section Design Start */
+.navbar {
+    background-color: white !important;
+    padding: 18px 0px;
+    
+}
+
+.nav-link {
+    color: #00413D !important;
+    font-size: 18px;
+}
+
+.nav_btn {
+    padding: 18px 44px;
+    border: 1px solid white !important;
+    background-color: #E5745D;
+    color: white;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-right: auto !important;
+}
+.nav-item {
+    padding: 0 20px;
+}
+.nav_home{
+    color: #E5745D !important;
+}
+/* Navbar Section Design End */
+
+/* Banner Part Design Start */
+.banner_section {
+    padding: 221px 0px;
+    background-color: #00413D;
+}
+
+.banner_heading {
+    font-weight: 700;
+    color: white;
+    font-family: "Vollkorn", serif;
+    font-size: 100px;
+}
+
+.banner_text {
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 670px;
+    font-family: "Jost", sans-serif;
+}
+
+.banner_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+/* Bnner Part Design End */
+
+/* Service Section Design Start */
+
+.service_section{
+    padding: 220px 0px 120px 0px;
+}
+.service_section h6{
+    text-transform: uppercase;
+    color: #E5745D;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Vollkorn", serif;
+}
+.fa-arrow-right-long{
+    color: #E5745D;
+}
+.service_section h2{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    width: 517px;
+    font-weight: 400;
+    font-family: "Vollkorn", serif;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.box{
+    width: 370px;
+    height: 364px;
+    background-color: whitesmoke;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+.box h5{
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+.box p{
+    width: 245px;
+    color: #00413D;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Service Section Design End */
