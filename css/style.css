@@ -253,3 +253,141 @@ a {
 }
 
 /* Project Section Design End */
+
+/* Portfolio Section Design Start */
+.portfolio_section {
+    padding-bottom: 120px;
+}
+
+.portfolio_section h6{
+    color: #E5745D;
+    text-align: center;
+}
+.portfolio_section h2{
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #00413D;
+}
+.portfolio_menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+.portfolio_menu li a{
+    text-decoration: none;
+    color: #00413D;
+}
+.portfolio_section .card{
+    padding-left: 0px;
+    height: 100%;
+}
+.portfolio_section .card-img-top{
+    height: 420px;
+    object-fit: cover;
+}
+.portfolio_section .card-body {
+    background-color: #00413D !important;
+    height: 100px;
+}
+.portfolio_section .card-title{
+    color: white !important;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Vollkorn", serif;
+
+}
+.portfolio_section .card-text{
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+/* Portfolio Section Design End */
+
+/* Testimonial Section Design Start */
+.testimonial_section{
+    background-color: #F9F4F1;
+    padding-bottom: 170px;
+}
+
+
+
+.testimonial_section h6{
+    color: #E5745D;
+    text-align: center;
+    padding-top: 120px;
+}
+.testimonial_section h2{
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #00413D;
+}
+.test_box{
+    width: 570px;
+    height: 150px;
+    background-color: white;
+    border-top: 7px solid #E5745D;
+    display: flex;
+    align-items: center;
+}
+.test_box p{
+    margin-top: 23px;
+    padding-left: 40px;
+    color: #A6BCBB;
+    width: 476px;
+    line-height: 26px;
+}
+.testi_desc{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    padding-left: 15%;
+}
+
+.testi_image img{
+    border: 2px solid #E5745D;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 74px;
+    height: 74px;
+}
+.testi_rating h6{
+    margin-top: 14px;
+    color: #00413D;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 8px;
+    padding-top: 0px;
+}
+.testi_rating p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #A6BCBB;
+
+}
+.testi_rating p i{
+    color: #E5745D;
+    font-size: 10px;
+}
+
+/* Testimonial Section Design End */
+
+/* Contact Section Design Start */
+
+
+
+
+
+
+
+
+/* Contact Section Design End */
