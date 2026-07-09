@@ -12,9 +12,9 @@ body {
     font-family: "Jost", sans-serif;
     font-weight: 400;
 }
-html, body{
+/* html, body{
     overflow-x: hidden;
-}
+} */
 
 .container {
     max-width: 1170px;
@@ -556,7 +556,7 @@ a {
 
 hr{
     color: #FFFFFF;
-    widt
+    
 }
 
 
